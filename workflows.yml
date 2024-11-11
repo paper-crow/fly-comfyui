@@ -1,0 +1,20 @@
+- name: default
+  description: "The default workflow with all nodes and models enabled."
+  enabled: true
+  custom_nodes:
+    - url: https://github.com/ltdrdata/ComfyUI-Manager.git
+      name: ComfyUI-Manager
+      recursive: false
+      branch: main
+  models:
+    checkpoints: []
+    clip_vision: []
+    clip: []
+    controlnet: []
+    insightface: []
+    ipadapter: []
+    loras: []
+    ultralytics: []
+    unet: []
+    upscale_models: []
+    vae: []

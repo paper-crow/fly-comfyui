@@ -1,0 +1,10 @@
+dlib
+facexlib
+insightface
+onnxruntime
+pyyaml
+requests
+torch
+torchaudio
+torchvision
+--extra-index-url https://download.pytorch.org/whl/cu121
